@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main-print:with proper grammar, but the outcome is a piece of art,
- *Return-0(Success)
+ *Return: 0(Success)
  **/
 int main(void)
 {
