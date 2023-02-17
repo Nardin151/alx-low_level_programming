@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main-Entry point, checks if the random number n is +ve, -ve, 0*/
-/*Return: 0(Success)*/
+/**
+ *main-Entry point, checks if the random number n is +ve, -ve, 0
+ *Return: 0(Success)
+ **/
 int main(void)
 {
 int n;
