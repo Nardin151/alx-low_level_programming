@@ -15,5 +15,6 @@ putchar(z);
 ascii_z--;
 z = (char)ascii_z;
 }
+putchar('\n');
 return (0);
 }
