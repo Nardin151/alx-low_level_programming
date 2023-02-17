@@ -7,14 +7,19 @@ int main(void)
 {
 int a = '0';
 int b = 0;
-while (b < 9)
+while (b < 10)
 {
 putchar(a);
+if (a == '9')
+{
+putchar('\n');
+}
+else
+{
 putchar(',');
 putchar(' ');
+}
 a++;
 b++;
 }
-putchar('9');
 return (0);
-}
