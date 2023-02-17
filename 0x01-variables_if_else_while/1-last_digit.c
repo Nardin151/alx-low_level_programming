@@ -13,15 +13,15 @@ n = rand() - RAND_MAX / 2;
 int c = n % 10;
 if (c > 5)
 {
-printf("is %d and is greater than 5", c);
+printf("is %d and is greater than 5\n", c);
 }
 else if (c == 0)
 {
-printf("is %d and is 0", c);
+printf("is %d and is 0\n", c);
 }
 else if (c < 6 & c != 0)
 {
-printf("is %d and is less than 6 and not 0", c);
+printf("is %d and is less than 6 and not 0\n", c);
 }
 
 return (0);
