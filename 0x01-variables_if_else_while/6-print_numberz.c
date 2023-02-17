@@ -6,10 +6,12 @@
 int main(void)
 {
 int a = '0';
-for (int n = 0; n < 10; n++)
+int b = 0;
+while (b != 10)
 {
 putchar(a);
 a++;
+b++;
 }
 return (0);
 }
