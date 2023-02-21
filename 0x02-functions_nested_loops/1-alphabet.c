@@ -19,7 +19,6 @@ return (0);
 void print_alphabet(void)
 {
 char a = 'a';
-int Ascii_a = (int) a;
 while (a != ((int)'z' + 1))
 {
 putchar(a);
