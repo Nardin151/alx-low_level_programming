@@ -20,6 +20,7 @@ while (a != ((int)'z' + 1))
 putchar(a);
 a++;
 }
+a = 'a';
 putchar('\n');
 i++;
 }
