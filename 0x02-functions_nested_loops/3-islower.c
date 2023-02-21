@@ -9,7 +9,8 @@
 int _islower(int c);
 int _islower(int c)
 {
-if (char.Islower(c))
+char x = (char) c ;
+if (char.Islower(x))
 return (1);
 else
 return (0);
