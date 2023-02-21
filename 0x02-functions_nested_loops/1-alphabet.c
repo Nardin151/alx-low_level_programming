@@ -16,4 +16,5 @@ while (a != ((int)'z' + 1))
 putchar(a);
 a++;
 }
+putchar('\n');
 }
