@@ -6,6 +6,7 @@
  * in lowercase, followed by
  * new line.
  * Return: 0 = Success
+ * print_alphabet() - prints the alphabet in lowercase
  **/
 void print_alphabet(void)
 {
