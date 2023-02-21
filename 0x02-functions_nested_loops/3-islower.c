@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Return: 0 = Success
- * _islower: checks for lowercase character.
+ * islower: checks for lowercase character.
  * c: character
  **/
 int _islower(int c);
