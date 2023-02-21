@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point
  * Description:Write a function that prints the alphabet,
