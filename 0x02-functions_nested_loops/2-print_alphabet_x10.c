@@ -1,12 +1,14 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * Return: 0 = Success
  **/
 /**
- * void print_alphabet_x10 - print the alphabet 10 times in lower
- *case
+ * print_alphabet_x10(): print the alphabet 10 times in lower
+ * case
  **/
+void print_alphabet_x10(void);
 void print_alphabet_x10(void)
 {
 char a = 'a';
