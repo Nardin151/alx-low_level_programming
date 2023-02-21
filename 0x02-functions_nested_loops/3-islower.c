@@ -9,8 +9,8 @@
 int _islower(int c);
 int _islower(int c)
 {
-if (c == c.IsLower)
-return (0);
-else
+if (c.Islower())
 return (1);
+else
+return (0);
 }
