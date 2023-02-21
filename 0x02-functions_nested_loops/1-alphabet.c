@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- * Description:Write a function that prints the alphabet,
+ * print_alphabet - a function that prints the alphabet,
  * in lowercase, followed by
  * new line.
  * Return: 0 = Success
