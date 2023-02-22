@@ -18,7 +18,8 @@ putchar(',');
 putchar(' ');
 y++;
 }
-int nin = 9 * x;
+int nin ;
+nin = 9 * x;
 putchar(nin);
 putchar('\n');
 x++;
