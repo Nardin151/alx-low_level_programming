@@ -5,19 +5,18 @@
  **/
 int main(void)
 {
-int a = 0;
-int b = 1;
-int sum = 0;
+long int a = 1;
+long int b = 1;
+long int sum = 0;
 int n = 0;
-printf("%d, ", a);
 printf("%d, ", b);
 while (n <= 98)
 {
 sum = a + b;
 if (n < 98)
-printf("%d, ", sum);
+printf("%ld, ", sum);
 else
-printf("%d", sum);
+printf("%ld", sum);
 a = b;
 b = sum;
 n++;
