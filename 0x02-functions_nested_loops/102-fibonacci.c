@@ -9,8 +9,8 @@ long int a = 1;
 long int b = 1;
 long int sum = 0;
 int n = 0;
-printf("%d, ", b);
-while (n <= 98)
+printf("%ld, ", b);
+while (n <= 99)
 {
 sum = a + b;
 if (n < 98)
