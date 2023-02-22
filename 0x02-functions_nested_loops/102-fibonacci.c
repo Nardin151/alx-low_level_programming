@@ -13,7 +13,7 @@ printf("%ld, ", b);
 while (n <= 99)
 {
 sum = a + b;
-if (n < 98)
+if (n < 99)
 printf("%ld, ", sum);
 else
 printf("%ld", sum);
