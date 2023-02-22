@@ -17,9 +17,9 @@ while(counter_1 <= n)
 {
 while(counter_2 <= n)
 {
-if (n > 99)
+mult = counter_1 * counter_2;
+if (mult > 99)
 {
-mult = (counter_1 * counter_2);
 first_digit = (mult / 100) + 48;
 putchar(first_digit);
 second_digit = (mult / 10) % 10 + 48;
@@ -27,7 +27,7 @@ putchar(second_digit);
 third_digit = mult % 10 + 48;
 putchar(third_digit);
 }
-else if (n >=10)
+else if (mult >=10)
 {
 putchar(' ');
 second_digit = (mult / 10) % 10 + 48;
