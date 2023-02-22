@@ -14,7 +14,7 @@ printf("%d, ", b);
 while (n <= 98)
 {
 sum = a + b;
-if (n != 98);
+if (n < 98)
 printf("%d, ", sum);
 else
 printf("%d", sum);
