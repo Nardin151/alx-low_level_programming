@@ -26,22 +26,12 @@ putchar(' ');
 n = (x * y) % 10 + 48;
 putchar(n);
 }
+if (y!=9)
+{
 putchar(',');
 putchar(' ');
+}
 y++;
-}
-n = (9 * x);
-if (n >= 10)
-{
-n = (((9 * x) - ((9 * x) % 10)) / 10) % 10 + 48;
-putchar(n);
-n = (9 * x) % 10 + 48;
-putchar(n);
-}
-else
-{
-n = (9 * x) % 10 + 48;
-putchar(n);
 }
 putchar('\n');
 y = 0;
