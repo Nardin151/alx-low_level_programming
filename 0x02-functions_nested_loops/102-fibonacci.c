@@ -10,10 +10,10 @@ long int b = 1;
 long int sum = 0;
 int n = 0;
 printf("%ld, ", b);
-while (n <= 49)
+while (n <= 48)
 {
 sum = a + b;
-if (n < 49)
+if (n < 48)
 printf("%ld, ", sum);
 else
 printf("%ld", sum);
