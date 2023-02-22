@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Enrty point
+ * print_sign - print the sign of a number
+ * @n: the number
  * Return: 0 = success
  **/
 int print_sign(int n);
