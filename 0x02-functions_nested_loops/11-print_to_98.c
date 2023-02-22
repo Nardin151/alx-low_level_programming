@@ -10,19 +10,20 @@ void print_to_98(int n)
 {
 if (n > 98)
 {
-while (n >= 98)
+while (n > 98)
 {
-putchar(n);
+printf("%d, ", n);
 n--;
 }
 }
 else
 {
 int i = 0;
-while (i > 98)
+while (i > 97)
 {
-putchar(n);
+printf("%d, ", n);
 i++;
 }
 }
+printf(98);
 }
