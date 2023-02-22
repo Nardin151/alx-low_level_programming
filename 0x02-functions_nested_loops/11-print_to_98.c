@@ -18,7 +18,7 @@ n--;
 }
 else if (n < 98)
 {
-while (n < 97)
+while (n <= 97)
 {
 printf("%d, ", n);
 n++;
