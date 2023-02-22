@@ -16,7 +16,7 @@ printf("%d, ", n);
 n--;
 }
 }
-else
+else if (n < 98)
 {
 int i = 0;
 while (i < 97)
