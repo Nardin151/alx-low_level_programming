@@ -29,7 +29,7 @@ putchar(third_digit);
 }
 else if (mult >=10)
 {
-if (counter_1 != 0)
+if (counter_2 != 0)
 putchar(' ');
 second_digit = (mult / 10) % 10 + 48;
 putchar(second_digit);
@@ -38,7 +38,7 @@ putchar(third_digit);
 }
 else
 {
-if (counter_1 != 0)
+if (counter_2 != 0)
 {
 putchar(' ');
 putchar(' ');
