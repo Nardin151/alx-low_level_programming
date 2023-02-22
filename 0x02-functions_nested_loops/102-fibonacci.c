@@ -21,5 +21,6 @@ a = b;
 b = sum;
 n++;
 }
+printf("\n");
 return (0);
 }
