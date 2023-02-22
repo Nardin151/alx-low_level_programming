@@ -16,5 +16,6 @@ if ((n % 3) == 0)
 sum = sum + n;
 n++;
 }
-return (sum);
+printf("%d\n", sum);
+return (0);
 }
