@@ -19,10 +19,10 @@ n--;
 else
 {
 int i = 0;
-while (n > 98)
+while (i > 98)
 {
 putchar(n);
-n++;
+i++;
 }
 }
 }
