@@ -13,17 +13,37 @@ while (x <= 9)
 {
 while (y < 9)
 {
-int m = x * y;
-char r = m + 48;
-_putchar(r + '0');
-_putchar(',');
-_putchar(' ');
+if ((x * y) > 10)
+{
+n = (((x * y) - ((x * y) % 10)) / 10) % 10 + 48;
+putchar(n);
+n = (x * y) % 10 + 48;
+putchar(n);
+}
+else
+{
+n = (x * y) % 10 + 48;
+putchar(n);
+}
+putchar(',');
+putchar(' ');
 y++;
 }
 
-n =(9 * x) + 48;
-_putchar(n + '0');
-_putchar('\n');
+n = (9 * x) + 48;
+if (n > 10)
+{
+n = (((9 * x) - ((9 * x) % 10)) / 10) % 10 + 48;
+putchar(n);
+n = (9 * x) % 10 + 48;
+putchar(n);
+}
+else
+{
+n = (9 * x) % 10 + 48;
+putchar(n);
+}
+putchar('\n');
 x++;
 }
 }
