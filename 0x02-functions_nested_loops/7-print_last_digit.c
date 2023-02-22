@@ -8,7 +8,7 @@
 int print_last_digit(int x)
 {
 int y, e, r;
-if (x > 0)
+if (x >= 0)
 {
 y = (x % 10) + 48;
 _putchar(y);
@@ -19,6 +19,6 @@ else
 e = -x;
 r = (e % 10) + 48;
 _putchar(r);
-return(e % 10);
+return (e % 10);
 }
 }
