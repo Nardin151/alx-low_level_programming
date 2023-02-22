@@ -23,8 +23,11 @@ putchar(second_digit);third_digit = mult  % 10 + 48;putchar(third_digit);
 else if (mult >= 10)
 {
 if (counter_2 != 0)
-putchar(' ');second_digit = (mult / 10) % 10 + 48;putchar(second_digit);
-third_digit = mult % 10 + 48;putchar(third_digit);
+putchar(' ');
+second_digit = (mult / 10) % 10 + 48;
+putchar(second_digit);
+third_digit = mult % 10 + 48;
+putchar(third_digit);
 }
 else
 {
@@ -32,14 +35,18 @@ if (counter_2 != 0)
 {
 putchar(' ');putchar(' ');
 }
-third_digit = mult % 10 + 48;putchar(third_digit);
+third_digit = mult % 10 + 48;
+putchar(third_digit);
 }
 if (counter_2 != n)
 {
-putchar(',');putchar(' ');
+putchar(',');
+putchar(' ');
 }
 counter_2++;
 }
-putchar('\n');counter_2 = 0;counter_1++;
+putchar('\n');
+counter_2 = 0;
+counter_1++;
 }
 }
