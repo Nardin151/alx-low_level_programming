@@ -23,6 +23,7 @@ while (i > 97)
 {
 printf("%d, ", n);
 i++;
+n++;
 }
 }
 printf("%d", 98);
