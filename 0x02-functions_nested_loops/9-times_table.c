@@ -29,7 +29,6 @@ putchar(',');
 putchar(' ');
 y++;
 }
-
 n = (9 * x) + 48;
 if (n > 10)
 {
@@ -44,6 +43,7 @@ n = (9 * x) % 10 + 48;
 putchar(n);
 }
 putchar('\n');
+y = 0;
 x++;
 }
 }
