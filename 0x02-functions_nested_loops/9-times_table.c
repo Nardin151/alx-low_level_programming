@@ -11,7 +11,7 @@ int y = 0;
 int n = 0;
 while (x <= 9)
 {
-while (y < 9)
+while (y <= 9)
 {
 if ((x * y) >= 10)
 {
