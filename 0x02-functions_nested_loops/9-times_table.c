@@ -14,14 +14,14 @@ while (x <= 9)
 while (y < 9)
 {
 int m = x * y;
-char r = m - 48;
+char r = m + 48;
 _putchar(r + '0');
 _putchar(',');
 _putchar(' ');
 y++;
 }
 
-n =(9 * x) - 48;
+n =(9 * x) + 48;
 _putchar(n + '0');
 _putchar('\n');
 x++;
