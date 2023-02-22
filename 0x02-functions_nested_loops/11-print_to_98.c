@@ -19,7 +19,7 @@ n--;
 else
 {
 int i = 0;
-while (i > 97)
+while (i < 97)
 {
 printf("%d, ", n);
 i++;
