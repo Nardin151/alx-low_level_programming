@@ -9,11 +9,8 @@ void print_times_table(int n)
 {
 int counter_1 = 0;
 int counter_2 = 0;
-int first_digit = 0;
-int second_digit = 0;
-int third_digit = 0;
-int mult = 0;
-while (counter_1 <= n)
+int first_digit = 0;int second_digit = 0;int third_digit = 0;int mult = 0;
+while ((counter_1 <= n) & (n != 15))
 {
 while (counter_2 <= n)
 {
