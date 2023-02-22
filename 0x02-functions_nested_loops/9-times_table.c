@@ -13,7 +13,7 @@ while (x <= 9)
 {
 while (y < 9)
 {
-if ((x * y) > 10)
+if ((x * y) >= 10)
 {
 n = (((x * y) - ((x * y) % 10)) / 10) % 10 + 48;
 putchar(n);
