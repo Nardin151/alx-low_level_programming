@@ -16,7 +16,7 @@ return (x % 10);
 }
 else
 {
-e = -x;
+e = -(x);
 r = (e % 10) + 48;
 _putchar(r);
 return (e % 10);
