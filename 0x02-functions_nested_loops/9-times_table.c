@@ -22,6 +22,7 @@ putchar(n);
 }
 else
 {
+if (y != 0)
 putchar(' ');
 n = (x * y) % 10 + 48;
 putchar(n);
