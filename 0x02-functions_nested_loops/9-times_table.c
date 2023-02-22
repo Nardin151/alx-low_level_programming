@@ -15,13 +15,13 @@ while (y < 9)
 {
 int m = x * y;
 _putchar(m + '0');
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 y++;
 }
 n = 9 * x;
-putchar(n);
-putchar('\n');
+_putchar(n);
+_putchar('\n');
 x++;
 }
 }
