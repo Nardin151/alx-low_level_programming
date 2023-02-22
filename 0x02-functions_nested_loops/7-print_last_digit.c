@@ -7,15 +7,18 @@
  **/
 int print_last_digit(int x)
 {
+int y, e, r;
 if (x > 0)
 {
-int y = (x % 10) + 48;
+y = (x % 10) + 48;
 _putchar(y);
 return (x % 10);
 }
 else
-int e = -x;
-int r = (e % 10) + 48;
+{
+e = -x;
+r = (e % 10) + 48;
 _putchar(r);
 return(e % 10);
+}
 }
