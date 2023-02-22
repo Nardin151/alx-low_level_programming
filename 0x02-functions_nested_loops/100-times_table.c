@@ -13,9 +13,9 @@ int first_digit = 0;
 int second_digit = 0;
 int third_digit = 0;
 int mult = 0;
-while(counter_1 <= n)
+while (counter_1 <= n)
 {
-while(counter_2 <= n)
+while (counter_2 <= n)
 {
 mult = counter_1 * counter_2;
 if (mult > 99)
@@ -27,7 +27,7 @@ putchar(second_digit);
 third_digit = mult % 10 + 48;
 putchar(third_digit);
 }
-else if (mult >=10)
+else if (mult >= 10)
 {
 if (counter_2 != 0)
 putchar(' ');
@@ -46,7 +46,8 @@ putchar(' ');
 third_digit = mult % 10 + 48;
 putchar(third_digit);
 }
-if (counter_2 != counter_1)
+
+if (counter_2 != n)
 {
 putchar(',');
 putchar(' ');
