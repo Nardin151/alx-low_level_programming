@@ -22,11 +22,10 @@ putchar(n);
 }
 else
 {
-putchar(' ');
 n = (x * y) % 10 + 48;
 putchar(n);
 }
-if (y!=9)
+if (y != 9)
 {
 putchar(',');
 putchar(' ');
