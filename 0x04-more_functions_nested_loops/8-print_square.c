@@ -8,9 +8,9 @@ void print_square(int size)
 {
 int a = 1;
 int b = 1;
-while (a <= n)
+while (a <= size)
 {
-while (b <= n)
+while (b <= size)
 {
 _putchar('#');
 b++;
