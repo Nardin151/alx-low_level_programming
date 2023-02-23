@@ -4,11 +4,9 @@
  * mul -  function that multiplies two integers.
  * @a: first number
  * @b: second number
- * Return: 0 = success
+ * Return: multiplication = success
  **/
 int mul(int a, int b)
 {
-int c = a * b;
-_putchar(c + '0');
-return (0);
+return (a * b);
 }
