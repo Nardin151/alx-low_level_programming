@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_line - a function that draws a straight 
+ * print_line - a function that draws a straight
  * line in the terminal.
  * @n: number of _
  * Retrun: 0 = Success
