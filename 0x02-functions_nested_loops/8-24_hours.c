@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * jack_bauer -  prints every minute of the day 
+ * jack_bauer -  prints every minute of the day
  * of Jack Bauer, starting from 00:00 to 23:59.
  * Return: 0 = success
  **/
@@ -20,6 +20,7 @@ _putchar((minutes / 10) + '0');
 _putchar((minutes % 10) + '0');
 minutes++;
 }
+minutes = 0;
 hours++;
 }
 }
