@@ -22,5 +22,4 @@ minutes++;
 }
 hours++;
 }
-return (0);
 }
