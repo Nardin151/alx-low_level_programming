@@ -19,6 +19,5 @@ b = 0;
 a++;
 _putchar(10);
 }
-if (n <= 0)
 _putchar('\n');
 }
