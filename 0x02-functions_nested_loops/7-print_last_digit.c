@@ -14,8 +14,8 @@ return (x % 10);
 }
 else
 {
-_putchar(((-(x)) % 10) + '0');
-return ((-(x)) % 10);
+_putchar(((x * -1) % 10) + '0');
+return ((x*-1)) % 10);
 }
 }
 

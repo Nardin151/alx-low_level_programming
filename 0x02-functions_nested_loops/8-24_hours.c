@@ -9,13 +9,12 @@ void jack_bauer(void)
 {
 int hours = 0;
 int minutes = 0;
-int digit = 0;
 while (hours <= 23)
 {
 while (minutes <= 59)
 {
-_putchar((hour / 10) + '0');
-_putchar((hour % 10) + '0');
+_putchar((hours / 10) + '0');
+_putchar((hours % 10) + '0');
 _putchar(':');
 _putchar((minutes / 10) + '0');
 _putchar((minutes % 10) + '0');
