@@ -20,5 +20,5 @@ a++;
 _putchar(10);
 }
 if (n <= 0)
-_putchar(10);
+_putchar('\n');
 }
