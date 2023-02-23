@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_diagonal -  draws a diagonal line on the terminal
+ * print_diagonal -  draws a diagonal line on the termina
  * @n: number of diag lines
  **/
 void print_diagonal(int n)
@@ -9,7 +9,7 @@ void print_diagonal(int n)
 int a = 0;
 int b = 0;
 if (n > 0)
-{	
+{
 while (b < n)
 {
 while (a <= b - 1)
