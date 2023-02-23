@@ -22,7 +22,6 @@ _putchar('\\');
 _putchar('\n');
 b++;
 }
-_putchar('\n');
 }
 else
 _putchar('\n');
