@@ -19,11 +19,11 @@ a++;
 }
 a = 0;
 _putchar('\\');
-_putchar(10);
+_putchar('\n');
 b++;
 }
-_putchar(10);
+_putchar('\n');
 }
 else
-_putchar(10);
+_putchar('\n');
 }
