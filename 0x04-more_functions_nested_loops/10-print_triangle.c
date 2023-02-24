@@ -28,5 +28,5 @@ rows++;
 _putchar('\n');
 }
 if (size < rows)
-_putchar(' ');
+_putchar('\n');
 }
