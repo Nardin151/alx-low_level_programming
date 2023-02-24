@@ -1,4 +1,4 @@
-#include <stdiio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * print_triangle - a function that prints a triangle,
