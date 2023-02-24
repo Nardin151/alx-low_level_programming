@@ -10,9 +10,9 @@ void print_triangle(int size)
 int rows = 1;
 int whitespace = 1;
 int hash = 1;
-while (rows <= size)
+while (rows < size)
 {
-while (whitespace <= size - rows)
+while (whitespace <= size - rows - 1)
 {
 _putchar(' ');
 whitespace++;
