@@ -9,7 +9,7 @@
 void print_array(int *a, int n)
 {
 unsigned long int counter;
-if (n == sizeof(a))
+if (n == (sizeof(a) / 4))
 {
 for (counter = 0 ; counter < (sizeof(a) / 4) - 1 ; counter++)
 {
