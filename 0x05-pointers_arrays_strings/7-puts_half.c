@@ -12,7 +12,7 @@ int inc = 0;
 for (counter = 0 ; str[counter] != '\0' ; counter++)
 inc++;
 if (inc % 2 != 0)
-inc = (inc - 1) / 2;
+inc = (inc - 1) / 2 + 1;
 else
 inc = inc / 2;
 for (counter_2 = inc ; counter_2 <= counter - 1 ; counter_2++)
