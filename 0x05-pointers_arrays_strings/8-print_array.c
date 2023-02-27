@@ -13,6 +13,7 @@ for (counter = 0 ; counter <= n - 1 ; counter++)
 {
 if (counter == n - 1)
 printf("%d", a[n - 1]);
+else
 printf("%d, ", a[counter]);
 }
 printf("\n");
