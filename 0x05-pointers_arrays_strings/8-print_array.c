@@ -9,10 +9,12 @@
 void print_array(int *a, int n)
 {
 unsigned long int counter;
+if (n == sizeof(a))
+{
 for (counter = 0 ; counter < (sizeof(a) / 4) - 1 ; counter++)
 {
 printf("%d, ", a[counter]);
-if (counter = n - 1)
+}
 printf("%d", a[n - 1]);
 }
 printf("\n");
