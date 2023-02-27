@@ -7,5 +7,16 @@
  **/
 void print_rev(char *s)
 {
-char *arr[] = *s;
+int counter;
+int length = 0;
+int counter_2;
+for (counter = 0 ; s[counter] != '\0' ; counter++)
+{
+length++;
+}
+for (counter_2 = lenght-1 ;lenght != 0; counter--)
+{
+_putchar(s[counter_2]);
+}
+_putchar('\n');
 }
