@@ -12,8 +12,8 @@ unsigned long int counter;
 for (counter = 0 ; counter < (sizeof(a) / 4) - 1 ; counter++)
 {
 printf("%d, ", a[counter]);
-if (counter = n -1)
+if (counter = n - 1)
 printf("%d", a[n - 1]);
 }
-printf('\n');
+printf("\n");
 }
