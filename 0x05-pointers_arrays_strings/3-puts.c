@@ -6,5 +6,10 @@
  **/
 void _puts(char *str)
 {
-
+int counter;
+for (counter = 0 ; s[counter] != '\0' ; counter++)
+{
+_putchar(s[counter]);
+counter++;
+}
 }

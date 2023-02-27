@@ -7,7 +7,12 @@ ________________________________
 
 Prototype: void swap_int(int *a, int *b);
 ________________________________
-[2-strlen.c]() : Write a function that returns the length of a string.
+[2-strlen.c](https://github.com/Nardin151/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/2-strlen.c) : Write a function that returns the length of a string.
 
 Prototype: int _strlen(char *s);
 ________________________________
+[3-puts.c](https://github.com/Nardin151/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/3-puts.c) : Write a function that prints a string, followed by a new line, to stdout.
+
+Prototype: void _puts(char *str);
+________________________________
+
