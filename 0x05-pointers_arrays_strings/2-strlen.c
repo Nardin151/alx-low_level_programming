@@ -7,7 +7,6 @@
  **/
 int _strlen(char *s)
 {
-char arr[] = *s;
-int n = sizeof(arr);
-return (n);
+char arr[] = s;
+return (sizeof(arr));
 }
