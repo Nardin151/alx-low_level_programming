@@ -9,15 +9,11 @@
 void print_array(int *a, int n)
 {
 unsigned long int counter;
-if ((sizeof(a) / 4) > 1)
-{
 for (counter = 0 ; counter < (sizeof(a) / 4) - 1 ; counter++)
 {
 printf("%d, ", a[counter]);
+if (counter = n -1)
+printf("%d", a[n - 1]);
 }
-printf("%d\n", a[n - 1]);
-}
-else if ((sizeof(a) / 4) == 1)
-printf("%d\n", a[1]);
-
+printf('\n');
 }
