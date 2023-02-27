@@ -7,6 +7,10 @@
  **/
 int _strlen(char *s)
 {
-char arr[] = s;
-return (sizeof(arr));
+int counter;
+for (counter = 0;s[counter] != '\0'; counter++)
+{
+counter++;
+}
+return (counter);
 }
