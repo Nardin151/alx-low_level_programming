@@ -10,9 +10,9 @@ int counter;
 int counter_2;
 int i = 0;
 int count = 0;
-char temp;
 for (counter = 0; s[counter] != '\0' ; counter++)
 count++;
+char temp[count];
 for (counter = 0; s[counter] != '\0' ; counter++)
 {
 temp[counter] = s[counter];
