@@ -6,21 +6,22 @@
  **/
 void rev_string(char *s)
 {
-int counter;
-int counter_2;
-int i = 0;
-int count = 0;
-for (counter = 0; s[counter] != '\0' ; counter++)
-count++;
-char temp[count];
-for (counter = 0; s[counter] != '\0' ; counter++)
+int a, len;
+char *begin, *end = s;
+for (a = 0; s[a] != '\0' && s[a + 1] != '\0'; a++)
 {
-temp[counter] = s[counter];
+end++;
 }
-for (counter_2 = counter ; (counter_2 / 2) >= 0 ; counter_2--)
+len = a + 1;
+begin = s;
+for (a = 0; a < len / 2; a++)
 {
-s[i]=temp[counter_2];
-i++;
+char x;
+x = *end;
+*end = *begin;
+*begin = x;
+begin++;
+end--;
 }
-_putchar('\n');
+end[len + 1] = '\0';
 }
