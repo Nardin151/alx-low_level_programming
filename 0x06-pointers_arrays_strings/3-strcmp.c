@@ -5,8 +5,8 @@
  * @s1: first string
  * @s2: second string
  * Return: int representing the difference between ascii
- * codes of both strings 
- * */
+ * codes of both strings
+ **/
 int _strcmp(char *s1, char *s2)
 {
 int str1 = 0;
