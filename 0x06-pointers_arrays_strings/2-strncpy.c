@@ -9,8 +9,6 @@
  **/
 char *_strncpy(char *dest, char *src, int n)
 {
-int sizeof_s1 = 0;
-int sizeof_s2 = 0;
 int counter;
 for (counter = 0 ; counter <= n ; counter++)
 dest[counter] = src[counter];
