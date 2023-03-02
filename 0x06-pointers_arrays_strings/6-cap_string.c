@@ -7,18 +7,18 @@
  **/
 char *cap_string(char *x)
 {
-int counter;
+int count;
 int char_to_ascii;
 char ascii_to_char;
-for (counter = 0; x[counter] != '\0' ; counter++)
+for (count = 0; x[count] != '\0' ; count++)
 {
-char_to_ascii = (int) x[counter];
+char_to_ascii = (int) x[count];
 if ((char_to_ascii >= 97) & (char_to_ascii <= 122))
 {
-if(((int) x[counter - 1] == 32) & (counter != 0))
+if ((((int)x[count - 1] == 32) || ((int) x[count - 1] == 10)) & (count != 0))
 char_to_ascii -= 32;
 ascii_to_char = (char) char_to_ascii;
-x[counter] = ascii_to_char;
+x[count] = ascii_to_char;
 }
 }
 return (x);
