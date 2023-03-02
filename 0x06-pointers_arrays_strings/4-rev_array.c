@@ -11,7 +11,7 @@ int counter;
 int temp;
 if (n % 2 != 0)
 n = n - 1;
-for (counter = 0 ; counter < n/2 ; counter++)
+for (counter = 0 ; counter < n / 2 ; counter++)
 {
 temp = a[counter];
 a[counter] = a[n - counter];
