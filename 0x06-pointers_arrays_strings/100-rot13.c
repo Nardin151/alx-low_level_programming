@@ -11,11 +11,11 @@ int c;
 int c2;
 char *ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char *alpha = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-for (c = 0; x[c] != '\0';c++)
+for (c = 0 ; x[c] != '\0' ; c++)
 {
 for (c2 = 0 ; c2 < 52 ; c2++)
 {
-if(x[c] == ALPHA[c2])
+if (x[c] == ALPHA[c2])
 {
 x[c] = alpha[c2];
 break;
