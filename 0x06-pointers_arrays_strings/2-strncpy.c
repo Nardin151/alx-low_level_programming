@@ -16,11 +16,7 @@ for (counter = 0 ; dest[counter] != '\0' ; counter++)
 sizeof_s1++;
 for (counter = 0 ; src[counter] != '\0' ; counter++)
 sizeof_s2++;
-if ((n > sizeof_s1) & (n <= sizeof_s2))
-n = sizeof_s1;
-else if ((n > sizeof_s2) & (n <= sizeof_s1))
-n = sizeof_s2;
-for (counter = 0 ; counter < n ; counter++)
+for (counter = 0 ; (counter < n) & (sizeof_s1 >= sizeof_s2 ) ; counter++)
 dest[counter] = src[counter];
 return (dest);
 }
