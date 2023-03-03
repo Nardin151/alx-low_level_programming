@@ -7,12 +7,20 @@
  **/
 char *rot13(char *x)
 {
-int counter;
-char ALPHA[26] = {'A','B','C','D','E','F','G','H','I','J','K','L',
-'M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
-char alpha[26] = 
-for (counter = 0 ; x[counter] != '\0' ; counter++)
+int c;
+int c2;
+char *ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char *alpha = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+for (c = 0; x[c] != '\0';c++)
 {
-
+for (c2 = 0 ; c2 < 52 ; c2++)
+{
+if(x[c] == ALPHA[c2])
+{
+x[c] = alpha[c2];
+break;
 }
+}
+}
+return (x);
 }
