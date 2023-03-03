@@ -10,20 +10,9 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int counter;
-int sizeof_s1 = 0;
-int sizeof_s2 = 0;
-for (counter = 0 ; dest[counter] != '\0' ; counter++)
-sizeof_s1++;
-for (counter = 0 ; src[counter] != '\0' ; counter++)
-sizeof_s2++;
-if (n > sizeof_s1)
-{
-if (n > sizeof_s2)
-n = sizeof_s2;
-else
-n = sizeof_s1;
-}
-for (counter = 0 ; counter < n ; counter++)
+for (counter = 0 ; (counter < n) && (src[j] != '\0') ; counter++)
 dest[counter] = src[counter];
+for (; (counter < n) && (src[j] != '\0') ; counter++)
+dest[counter] = '\0';
 return (dest);
 }
