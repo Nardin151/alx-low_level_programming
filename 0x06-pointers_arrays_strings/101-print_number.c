@@ -9,7 +9,7 @@ void print_number(int n)
 int len = 1;
 int power_of_ten = 10;
 int count;
-int temp = n ;
+int temp = n;
 if (n < 0)
 {
 _putchar('-');
