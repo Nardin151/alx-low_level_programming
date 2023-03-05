@@ -11,7 +11,7 @@ int counter;
 char temp;
 for (counter = 0 ; s[counter] != '\0' ; counter++)
 len++;
-for (counter = 0 ; counter <= (len / 2) ; counter++)
+for (counter = 0 ; counter < (len / 2) ; counter++)
 {
 temp = s[counter];
 s[counter] = s[len - counter - 1];
