@@ -14,4 +14,7 @@ Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
 The _memcpy() function copies n bytes from memory area src to memory area dest
 Returns a pointer to dest
 ________________________________
+[2-strchr.c](https://github.com/Nardin151/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/2-strchr.c) : Write a function that locates a character in a string.
 
+Prototype: char *_strchr(char *s, char c);
+Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
