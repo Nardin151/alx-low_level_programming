@@ -10,8 +10,9 @@ int counter;
 int counter2;
 for (counter = 0 ; counter < 8 ; counter++)
 {
-for (counter2 = 0; counter2 < 8 ;counter2++)
-{if (a[counter][counter2] == ' ')
+for (counter2 = 0 ; counter2 < 8 ; counter2++)
+{
+if (a[counter][counter2] == ' ')
 {
 break;
 }
