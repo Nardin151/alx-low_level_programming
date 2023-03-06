@@ -26,5 +26,5 @@ secondDiag += a[counter];
 counter += size - 1;
 counter2++;
 }
-printf("%d, %d\n", firstDiag, secondDiag); 
+printf("%d, %d\n", firstDiag, secondDiag);
 }
