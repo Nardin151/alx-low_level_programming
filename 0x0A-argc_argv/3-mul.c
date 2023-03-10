@@ -9,11 +9,12 @@
  **/
 int main(int argc, char *argv[])
 {
+int e;
 int i = 1;
 if (argc > 1)
 {
-for (i = 1 ; i < argc ; i++)
-i *= atoi(argv[i]);
+for (e = 1 ; e < argc ; e++)
+i *= atoi(argv[e]);
 printf("%d\n", i);
 }
 else
