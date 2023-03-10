@@ -11,7 +11,9 @@ int main(int argc, char *argv[])
 {
 int e;
 int i = 1;
-if ((argc > 1) & (argc <= 3))
+if (argc == 2)
+printf("Error\n");
+else if ((argc > 1) & (argc <= 3))
 {
 for (e = 1 ; e < argc ; e++)
 i *= atoi(argv[e]);
