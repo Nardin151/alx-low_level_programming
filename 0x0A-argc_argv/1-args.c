@@ -5,7 +5,7 @@
  * @argc: the number of input provided by the command line
  * @argv: the value of the
  * Return: 0 = success
- * */
+ **/
 int main(int argc __attribute__((unused)), char *argv[])
 {
 printf("%d\n", argc);
