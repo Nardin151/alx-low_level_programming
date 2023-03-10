@@ -12,7 +12,7 @@ int i = 1;
 if (argc > 1)
 {
 for (i = 0 ; i < argc ; i++)
-i *= _atoi(arg[i]);
+i *= _atoi(argv[i]);
 printf("%d\n", i);
 }
 else
