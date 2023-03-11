@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 /**
@@ -10,6 +10,30 @@
 int main(int argc, char *argv[])
 {
 int sum = 0;
-if (
+int counter2;
+int counter;
+int there_is_a_char = 0;
+for (counter = 0 ; counter < argc ; counter++)
+{
+for (counter2 = 0 ; argv[counter][counter2] ; counter2++)
+{
+if ((argv[counter][counter2] >= '0') & (argv[counter][counter2] <= '9'))
+{
+printf("%d",argv[counter][counter2]);
+sum += atoi(argv[counter]);
+printf("%d", sum);
+break;
+}
+else
+{
+there_is_a_char = 1;
+break;
+}
+}
+}
+if (there_is_a_char == 1)
+printf("Error\n");
+else
+printf("%d", sum);
 return (0);
 }
