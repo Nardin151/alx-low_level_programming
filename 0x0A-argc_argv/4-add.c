@@ -13,7 +13,7 @@ int sum = 0;
 int counter2;
 int counter;
 int there_is_a_char = 0;
-for (counter = 0 ; counter < argc ; counter++)
+for (counter = 1 ; counter < argc ; counter++)
 {
 for (counter2 = 0 ; argv[counter][counter2] ; counter2++)
 {
@@ -32,6 +32,6 @@ break;
 if (there_is_a_char == 2)
 printf("Error\n");
 else
-printf("%d", sum);
+printf("%d\n", sum);
 return (0);
 }
