@@ -8,11 +8,11 @@
  **/
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int counter = 0;
+int counter = 0;
 while (counter < n)
 {
-s++;
 *s = b;
+s++;
 counter++;
 }
 return (s);
