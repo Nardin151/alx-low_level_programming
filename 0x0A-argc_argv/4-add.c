@@ -29,9 +29,14 @@ break;
 }
 }
 }
-if (there_is_a_char == 2)
+if ((there_is_a_char == 2) || (argc == 2))
+{
 printf("Error\n");
+return (1);
+}
 else
+{
 printf("%d\n", sum);
 return (0);
+}
 }
