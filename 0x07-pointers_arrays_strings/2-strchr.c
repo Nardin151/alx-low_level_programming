@@ -10,14 +10,14 @@
 char *_strchr(char *s, char c)
 {
 int counter;
-char *ptr;
 for (counter = 0 ; s[counter] != '\0' ; counter++)
 {
 if (s[counter] == c)
 {
-ptr = s[counter];
+s++;
 break;
 }
+s++;
 }
-return (ptr);
+return (s);
 }
