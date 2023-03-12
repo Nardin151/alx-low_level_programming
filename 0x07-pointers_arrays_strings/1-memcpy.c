@@ -15,7 +15,7 @@ for (counter = 0 ; dest[counter] != '\0' ; counter++)
 size++;
 for (counter = 0 ; counter < n ; counter++)
 {
-dest[size -1] = src[counter];
+dest[size - 1] = src[counter];
 size++;
 }
 return (dest);
