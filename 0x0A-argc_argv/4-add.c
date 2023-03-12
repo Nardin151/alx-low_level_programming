@@ -19,19 +19,17 @@ for (counter2 = 0 ; argv[counter][counter2] ; counter2++)
 {
 if ((argv[counter][counter2] >= '0') & (argv[counter][counter2] <= '9'))
 {
-printf("%d",argv[counter][counter2]);
 sum += atoi(argv[counter]);
-printf("%d", sum);
 break;
 }
 else
 {
-there_is_a_char = 1;
+there_is_a_char = 2;
 break;
 }
 }
 }
-if (there_is_a_char == 1)
+if (there_is_a_char == 2)
 printf("Error\n");
 else
 printf("%d", sum);
