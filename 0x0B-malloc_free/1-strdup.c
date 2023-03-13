@@ -15,7 +15,7 @@ char *str2;
 for (counter = 0 ; str[counter] != '\0' ; counter++)
 size++;
 str2 = malloc(sizeof(char) * size);
-for (counter = 0 ; counter <= size ; counter++)
+for (counter = 0 ; counter <= size + 1 ; counter++)
 str2[counter] = str[counter];
 if (str == NULL)
 return (NULL);
