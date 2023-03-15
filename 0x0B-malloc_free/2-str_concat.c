@@ -16,15 +16,9 @@ char *s3;
 int flag1 = 1;
 int flag2 = 1;
 if (s1 == NULL)
-{
-size1 = 0;
-flag1 = 0;
-}
+s1 = "";
 if (s2 == NULL)
-{
-size2 = 0;
-flag2 = 0;
-}
+s2 = "";
 for (counter = 0 ; (s1[counter] != '\0') & (flag1) ; counter++)
 size1++;
 for (counter = 0 ; (s2[counter] != '\0') & (flag2) ; counter++)
