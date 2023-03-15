@@ -17,7 +17,7 @@ return (NULL);
 else
 {
 s = malloc(sizeof(char) * size);
-for (counter = 0 ; counter < size ; counter ++)
+for (counter = 0 ; counter < size ; counter++)
 s[counter] = c;
 s[size] = '\0';
 if (s == NULL)
