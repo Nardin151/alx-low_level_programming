@@ -17,6 +17,10 @@ for (counter = 0 ; s1[counter] != '\0' ; counter++)
 size1++;
 for (counter = 0 ; s2[counter] != '\0' ; counter++)
 size2++;
+if (s1 == NULL)
+size1 = 0;
+if (s2 == NULL)
+size2 = 0;
 s3 = malloc(sizeof(char) * (size1 + size2 + 1));
 for (counter = 0 ; s1[counter] != '\0' ; counter++)
 s3[counter] = s1[counter];
