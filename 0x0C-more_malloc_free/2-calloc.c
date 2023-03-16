@@ -13,8 +13,8 @@ int *ptr;
 unsigned int counter;
 if ((nmemb == 0) || (size == 0))
 return (NULL);
-ptr = malloc(sizeof(int) * size);
-for (counter = 0 ; counter < size ; counter++)
+ptr = malloc(sizeof(int) * size * nmemb);
+for (counter = 0 ; counter < size * nmemb ; counter++)
 ptr[counter] = 0;
 if (ptr == NULL)
 return (NULL);
