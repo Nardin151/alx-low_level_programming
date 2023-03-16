@@ -21,7 +21,7 @@ for (counter = 0 ; s2[counter] != '\0' ; counter++)
 size2++;
 if (n > size2)
 n = size2;
-s3 = malloc(sizeof(char) * (size1 + n));
+s3 = malloc(sizeof(char) * (size1 + n + 1));
 for (counter = 0 ; s1[counter] ; counter++)
 s3[counter] = s1[counter];
 for (counter = 0 ; counter < n ; counter++)
