@@ -15,6 +15,10 @@ unsigned int counter;
 unsigned int size1 = 0;
 unsigned int size2 = 0;
 char *s3;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 for (counter = 0 ; s1[counter] != '\0' ; counter++)
 size1++;
 for (counter = 0 ; s2[counter] != '\0' ; counter++)
