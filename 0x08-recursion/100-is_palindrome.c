@@ -14,19 +14,17 @@ int target;
 int size = 0;
 for (counter  = 0; s[counter] ; counter++)
 size++;
-end = &s[size - 1];
-target = size / 2;
-return (Palindorm(s, end, s, size));
+return (Palindorm(0, size - 1, s));
 }
-int Palindorm(char *start, char *end, char *s, int size)
+int Palindorm(int start, int end, char *s)
 {
-if ((start[0] == end[0]) & (end[0] == s[size / 2]) & (start[size / 2]))
+if (s[start] == s[end] & start == end )
 return (1);
-if (start[0] == end[0])
-{
-start++;
-end--;
-Palindorm(start, end);
-}
+if (s[start] == s[end] & start == end - 1)
+return (1);
+if (s[start] != s[end])
+return (0);
+if (s[start] == s[end])
+return (Palindorm(start + 1 , end - 1, s));
 return (0);
 }
