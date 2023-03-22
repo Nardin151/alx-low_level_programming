@@ -8,23 +8,25 @@
  **/
 int is_palindrome(char *s)
 {
-int L = stringSize(s);
-return (Palindorme(s,0,L));
-}
-int stringSize(char *s)
-{
 int counter;
-int size = 0
-for (counter = 0 ; s[counter] != '\0' ; counter++)
-size ++;
-return (size);
+int *end;
+int target;
+int size = 0;
+for (counter  = 0; s[counter] ; counter++)
+size++;
+end = &s[size - 1];
+target = size / 2;
+return (Palindorm(s, end, s, size));
 }
-int Palindorme(char s,int start,int end)
+int Palindorm(char *start, char *end, char *s, int size)
 {
-if (s[strat] != s[end - 1])
-return (0);
-if (start == 1)
+if ((start[0] == end[0]) & (end[0] == s[size / 2]) & (start[size / 2]))
 return (1);
-return (Palindorme(s, start + 1, end - 1);
+if (start[0] == end[0])
+{
+start++;
+end--;
+Palindorm(start, end);
 }
-
+return (0);
+}

@@ -8,18 +8,21 @@
  **/
 int _sqrt_recursion(int n)
 {
-sqrt(n, 1);
+_sqrt(n, 1);
 }
 /**
- * sqrt- function that finds the sqrt of the number n
+ * _sqrt- function that finds the sqrt of the number n
  * @n: the number we are finding the sqrt of
  * @m: seed
+ * Return: the square root if found
  **/
-int sqrt(int n, int m)
+int _sqrt(int n, int m)
 {
+if (m < 0)
+return (-1);
 if (m * m == n)
 return (m);
 if (m * m > n)
 return (-1);
-return (sqrt(n, m + 1));
+return (_sqrt(n, m + 1));
 }
