@@ -21,6 +21,8 @@ int _prime(int n, int dec)
 {
 if (n < 0)
 return (0);
+if (n == 1)
+return (1);
 if ((n % dec != 0) & (dec == 2))
 return (1);
 if (n % dec != 0)
