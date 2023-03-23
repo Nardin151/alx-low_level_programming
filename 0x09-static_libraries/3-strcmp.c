@@ -21,5 +21,5 @@ return (0);
 else if (count1 > count2)
 return (count1 - count2);
 else
-(count1 - count2);
+return (count2 - count1);
 }

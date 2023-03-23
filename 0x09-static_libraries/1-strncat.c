@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _strncat - concatenate two strings but add inputted number of bytes
@@ -7,7 +7,3 @@
  * @n: the number of bytes that we will concat
  * Return: pointer to dest
  **/
-char *_strncat(char *dest, char *src, int n)
-{
-
-}

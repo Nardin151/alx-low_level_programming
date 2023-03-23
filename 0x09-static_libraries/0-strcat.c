@@ -13,6 +13,6 @@ int counter;
 for (counter = 0 ; dest[counter] != '\0' ; counter++)
 size++;
 for (counter = 0 ; src[counter] != '\0' ; counter++)
-dest[size++] = src[counetr];
+dest[size++] = src[counter];
 return (dest);
 }

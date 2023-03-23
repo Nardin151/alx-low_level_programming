@@ -12,7 +12,6 @@ int size = 0;
 int number = 1;
 int tens = 1;
 int found_num;
-int count;
 for (counter = 0 ; s[counter] ; counter++)
 size++;
 for (counter = size - 1 ; counter >= 0 ; counter--)

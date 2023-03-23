@@ -13,9 +13,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 int counter;
 for (counter = 0 ; accept[counter] ; counter++)
-if (accept[counter] == *s)
 {
+if (accept[counter] == *s)
 return (counter);
 }
-
+return (0);
 }
