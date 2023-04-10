@@ -11,12 +11,12 @@ unsigned int binary_to_uint(const char *b)
 int counter;
 int powerOfTwo = 1;
 unsigned int Decimal = 0;
+if (b == NULL)
+return (Decimal);
 for (counter = 0 ; b[counter] != '\0' ; counter++)
 {
 powerOfTwo *= 2;
 if ((b[counter] != '1') & (b[counter] != '0'))
-return (Decimal);
-if (b == NULL)
 return (Decimal);
 }
 if (powerOfTwo == 1)
