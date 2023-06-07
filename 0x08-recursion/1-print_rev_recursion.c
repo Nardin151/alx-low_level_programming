@@ -38,6 +38,6 @@ rev(s, n - 1);
  **/
 void _print_rev_recursion(char *s)
 {
-if (s != "")
+if (Len(s) != 0)
 rev(s, Len(s));
 }
