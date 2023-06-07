@@ -23,7 +23,6 @@ void rev(char *s, int n)
 {
 if (n == 0)
 {
-_putchar('\n');
 _putchar(s[0]);
 }
 else
