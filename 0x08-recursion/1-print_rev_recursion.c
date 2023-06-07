@@ -37,6 +37,6 @@ rev(s, n - 1);
  **/
 void _print_rev_recursion(char *s)
 {
-if (Len(s) != 0)
+if (s[0] != '\0')
 rev(s, Len(s));
 }
