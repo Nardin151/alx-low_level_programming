@@ -23,6 +23,7 @@ void rev(char *s, int n)
 {
 if (n == 0)
 {
+_putchar('\n');
 _putchar(s[0]);
 }
 else
@@ -37,5 +38,6 @@ rev(s, n - 1);
  **/
 void _print_rev_recursion(char *s)
 {
+if (s != "")
 rev(s, Len(s));
 }
