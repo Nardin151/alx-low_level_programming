@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -14,13 +15,8 @@ char *_strdup(char *str)
 char *a;
 unsigned int i = 0;
 /*Calculate the size*/
-unsigned int s = 0;
-while (str[i] != '\0')
-{
-s++;
-i++;
-}
-a = malloc(sizeof(str)* s);
+unsigned int s = strlen(str);
+a = malloc(sizeof(char)* s);
 i = 0;
 if (a == NULL)
 return (NULL);
@@ -30,5 +26,4 @@ a[i] = str[i];
 i++;
 }
 return (a);
-free(a);
 }
