@@ -20,10 +20,10 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 	s2 = "";
 	s = strlen(s1) + strlen(s2);
-	s3 = malloc(sizeof(char) * s);
+	s3 = malloc(sizeof(char) * (s + 1));
 	if (s3 == NULL)
 	return (NULL);
-	while (index < s)
+	while (index <= s)
 	{
 		if (index < strlen(s1))
 			s3[index] = s1[index];
