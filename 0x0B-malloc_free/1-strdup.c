@@ -19,11 +19,11 @@ unsigned int s;
 if (str == NULL)
 return (NULL);
 s = strlen(str);
-a = malloc(sizeof(char) * s);
+a = malloc(sizeof(char) * (s + 1));
 i = 0;
 if (a == NULL)
 return (NULL);
-while (i < s)
+while (i <= s)
 {
 a[i] = str[i];
 i++;
