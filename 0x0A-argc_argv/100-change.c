@@ -22,7 +22,7 @@ int temp = 0;
 int i = 0;
 int times = 0;
 if (Target < 0)
-printf("%d\n",0);
+printf("%d\n", 0);
 else
 {
 while (temp != Target)
