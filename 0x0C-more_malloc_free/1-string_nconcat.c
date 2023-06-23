@@ -16,7 +16,7 @@ char *s3;
 int index;
 if (n > strlen(s2))
 	n = strlen(s2);
-s3 = malloc(sizeof(char) * (strlen(s1) + n));
+s3 = malloc(sizeof(char) * (strlen(s1) + n + 1));
 total = n + strlen(s1);
 while (i < total)
 {
@@ -32,6 +32,7 @@ while (i < total)
 	}
 	i++;
 }
+s3[i] = '\0';
 return (s3);
 }
 
