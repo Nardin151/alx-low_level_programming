@@ -15,7 +15,7 @@ int j = 0;
 if ((width <= 0) | (height <= 0))
 return (NULL);
 if (Array == NULL)
-return (NULL);
+free(Array);
 while (i < height)
 {
 Array[i] = malloc(sizeof(int) * width);
