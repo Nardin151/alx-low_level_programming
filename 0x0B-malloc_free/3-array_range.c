@@ -1,29 +1,31 @@
-/*
- * 0x0C. C - More malloc, free
- * task 3
- */
 #include "main.h"
-#include <stdlib.h>
+#include <stddef.h>
+
 /**
- * array_range - creates an array of integers.
- * @min: start
- * @max: end
- * Return: from min to max array refrance or NULL
+ * array_range - creates an array of integers
+ * @min: smallest number in the array
+ * @max: largest value in the array
+ *
+ * Return: pointer to the address of the memory block
  */
+
 int *array_range(int min, int max)
 {
-	int *p, i;
+	int *block;
+	int i, j = 0;
 
 	if (min > max)
 		return (NULL);
-	p = malloc((max - min + 1) * sizeof(int));
-	if (p == NULL)
-		return (NULL);
-
-	for (i = 0; i <= max - min; i++)
+	block = malloc(sizeof(*block) * ((max - min) + 1));
+	if (block != NULL)
 	{
-		p[i] = min + i;
+		for (i = min; i <= max; i++)
+		{
+			block[j] = i;
+			j++;
+		}
+		return (block);
 	}
-
-	return (p);
+	else
+		return (NULL);
 }
